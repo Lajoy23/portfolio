@@ -1,0 +1,85 @@
+html{
+  height: 100%;
+  background-image:
+url("https://images.pexels.com/photos/133170/pexels-photo-133170.jpeg?auto=compress&cs=tinysrgb&h=350");
+ background-size: cover;
+}
+
+#banner{
+  padding-top: 22%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color:#b29861;
+}
+
+#heading{
+  height: 100%;
+  font-family: 'PT Serif Caption', serif;
+  display: flex;
+  justify-content: center;
+  color:#83563c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color:  beige;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width*/
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #00b8ff ;
+  font-family:'Rubik', sans-serif ;
+}
+
+.navbar a:hover{
+  color: white;
+  background: #e6e8fa;
+}
+
+#about-content{
+  display: flex;
+  justify-content: space-around;
+  margin-top:22%;
+}  
+
+.about-pic {
+  border-radius: 30%;
+  border: solid 5px #670002;
+}
+
+.my-description{
+  background: pink;
+  margin:3%;
+  padding:4%;
+  font-family:'Lobster', cursive;
+}
+
+.project-container{
+  margin-top:20%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+span{
+  background:#f6ecbd;
+  width:30%;
+  height: 60%;
+  margin:2%;
+  padding:2%;
+  font-family:'Tajawal', sans-serif;
+  color: white;
+  align-items: center;
+}
